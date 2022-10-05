@@ -43,6 +43,7 @@ python ./code/test.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnu
 If our CC-Net is useful for your research, please consider citing:
 ```
 https://github.com/Cuthbert-Huang/CC-Net
+https://arxiv.org/abs/2210.01438
 ```
 If you use the dataset of 2018 Atrial Segmentation Challenge, please consider citing:
 ```
