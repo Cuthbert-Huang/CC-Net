@@ -1,7 +1,7 @@
 # Complementary consistency semi-supervised learning for 3D left atrial image segmentation
 by Hejun Huang, Zuguo Chen*, Chaoyang Chen, Ming Lu, Ying Zou
 ## Introduction
-This repository is for our paper '[Complementary consistency semi-supervised learning for 3D left atrial image segmentation](https://github.com/Cuthbert-Huang/CC-Net)'.
+This repository is for our paper '[Complementary consistency semi-supervised learning for 3D left atrial image segmentation](https://arxiv.org/abs/2210.01438)'.
 ## Requirements
 This repository is based on Pytorch 1.9.1, CUDA11.1 and Python 3.6.5
 ## Usage
