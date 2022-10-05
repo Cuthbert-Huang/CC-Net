@@ -11,11 +11,11 @@ Clone the repo:
 git clone https://github.com/Cuthbert-Huang/CC-Net.git 
 ```
 ### Dataset
-We use [the dataset of 2018 Atrial Segmentation Challenge](http://atriaseg2018.cardiacatlas.org/). The processed h5 datas were provided in the `data` folder.
+We use [the dataset of 2018 Atrial Segmentation Challenge](http://atriaseg2018.cardiacatlas.org/). The processed h5 datas were provided in [baiduNetdisk](https://pan.baidu.com/s/1WN4DKsrx-830KcT89pWiLg) (password: cuth). Please unzip and put it in the `data/LA` folder.
 ### Preprocess
 If you want to process .nrrd data into .h5 data, you can use `code/dataloaders/preprocess.py`.
 ### Pretrained models
-The pretrained models were provided in the `pretrained` folder.
+The pretrained models were provided in [baiduNetdisk](https://pan.baidu.com/s/1LK42sJSJTMrgBG6JdqND5Q) (password: cuth). Please put it in the `pretrained` folder.
 ### Train
 If you want train CC-Net for 10% labels on LA
 ```shell
