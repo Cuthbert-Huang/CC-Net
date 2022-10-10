@@ -42,16 +42,20 @@ python ./code/test.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnu
 ## Citation
 If our CC-Net is useful for your research, please consider citing:
 ```
-https://github.com/Cuthbert-Huang/CC-Net
-https://arxiv.org/abs/2210.01438
+@article{huang2022complementary,
+  title={Complementary consistency semi-supervised learning for 3D left atrial image segmentation},
+  author={Huang, Hejun and Chen, Zuguo and Chen, Chaoyang and Lu, Ming and Zou, Ying},
+  journal={arXiv preprint arXiv:2210.01438},
+  year={2022}
+}
 ```
 If you use the dataset of 2018 Atrial Segmentation Challenge, please consider citing:
 ```
 @article{Xiong_A_global2021,
-	  author = {Xiong, Zhaohan and Xia, Qing and Hu, Zhiqiang and Huang, Ning and Bian, Cheng and Zheng, Yefeng and Vesal,          Sulaiman and Ravikumar, Nishant and Maier, Andreas and Yang, Xin},
-	  title = {A global benchmark of algorithms for segmenting the left atrium from late gadolinium-enhanced cardiac magnetic resonance imaging},
-	  journal = {Medical Image Analysis},
-	  year = {2021} }
+  author = {Xiong, Zhaohan and Xia, Qing and Hu, Zhiqiang and Huang, Ning and Bian, Cheng and Zheng, Yefeng and Vesal,          Sulaiman and Ravikumar, Nishant and Maier, Andreas and Yang, Xin},
+  title = {A global benchmark of algorithms for segmenting the left atrium from late gadolinium-enhanced cardiac magnetic resonance imaging},
+  journal = {Medical Image Analysis},
+  year = {2021} }
 ```
 ## Acknowledgements
 Our code is origin from [UAMT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [DTC](https://github.com/HiLab-git/DTC), and [CC-Net+](https://github.com/ycwu1997/MC-Net). Thanks to these authors for their excellent work.
