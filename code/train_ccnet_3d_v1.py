@@ -49,7 +49,7 @@ parser.add_argument('--gpu', type=str, default='0', help='GPU to use')
 parser.add_argument('--consistency', type=float, default=1, help='consistency_weight')
 parser.add_argument('--consistency_rampup', type=float, default=40.0, help='consistency_rampup')
 parser.add_argument('--temperature', type=float, default=0.1, help='temperature of sharpening')
-parser.add_argument('--lamda', type=float, default=0.5, help='weight to balance all losses')
+parser.add_argument('--lamda', type=float, default=0.3, help='weight to balance all losses')
 args = parser.parse_args()
 
 snapshot_path = args.root_path + "model/{}_{}_{}_labeled/{}".format(args.dataset_name, args.exp, args.labelnum,
