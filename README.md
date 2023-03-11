@@ -58,4 +58,4 @@ If you use the dataset of 2018 Atrial Segmentation Challenge, please consider ci
   year = {2021} }
 ```
 ## Acknowledgements
-Our code is origin from [UAMT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [DTC](https://github.com/HiLab-git/DTC), and [CC-Net+](https://github.com/ycwu1997/MC-Net). Thanks to these authors for their excellent work.
+Our code is origin from [UAMT](https://github.com/yulequan/UA-MT), [SASSNet](https://github.com/kleinzcy/SASSnet), [DTC](https://github.com/HiLab-git/DTC), and [MC-Net+](https://github.com/ycwu1997/MC-Net). Thanks to these authors for their excellent work.
