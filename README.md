@@ -18,23 +18,23 @@ If you want to process .nrrd data into .h5 data, you can use `code/dataloaders/p
 The pretrained models were provided in [googleDrive](https://drive.google.com/drive/folders/19qymbWUnjcBT_Cu3SmvmBhKAnRSKyq1i?usp=sharing) and [baiduNetdisk](https://pan.baidu.com/s/1LK42sJSJTMrgBG6JdqND5Q) (password: cuth).
 Please put them in the `pretrained` folder.
 ### Train
-If you want train CC-Net for 10% labels on LA.
+If you want to train CC-Net for 10% labels on LA.
 ```shell
 cd CC-Net
 python ./code/train_ccnet_3d_v1.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnum 8 --gpu 0 --temperature 0.1 --max_iteration 10000
 ```
-If you want train CC-Net for 20% labels on LA.
+If you want to train CC-Net for 20% labels on LA.
 ```shell
 cd CC-Net
 python ./code/train_ccnet_3d_v1.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnum 16 --gpu 0 --temperature 0.1 --max_iteration 10000
 ```
 ### Test
-If you want test CC-Net for 10% labels on LA.
+If you want to test CC-Net for 10% labels on LA.
 ```shell
 cd CC-Net
 python ./code/test.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnum 8 --gpu 0
 ```
-If you want test CC-Net for 20% labels on LA.
+If you want to test CC-Net for 20% labels on LA.
 ```shell
 cd CC-Net
 python ./code/test.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnum 16 --gpu 0
