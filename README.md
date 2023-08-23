@@ -1,7 +1,7 @@
 # Complementary consistency semi-supervised learning for 3D left atrial image segmentation
 by Hejun Huang, Zuguo Chen*, Chaoyang Chen, Ming Lu, Ying Zou
 ## Introduction
-This repository is for our paper '[Complementary consistency semi-supervised learning for 3D left atrial image segmentation](https://arxiv.org/abs/2210.01438)'.
+This repository is for our paper '[Complementary consistency semi-supervised learning for 3D left atrial image segmentation](https://www.sciencedirect.com/science/article/pii/S0010482523008338)'.
 ## Requirements
 This repository is based on Pytorch 1.9.1, CUDA11.1 and Python 3.6.5
 ## Usage
@@ -42,11 +42,16 @@ python ./code/test.py --dataset_name LA --model ccnet3d_v1 --exp CCNET --labelnu
 ## Citation
 If our CC-Net is useful for your research, please consider citing:
 ```
-@article{huang2022complementary,
-  title={Complementary consistency semi-supervised learning for 3D left atrial image segmentation},
-  author={Huang, Hejun and Chen, Zuguo and Chen, Chaoyang and Lu, Ming and Zou, Ying},
-  journal={arXiv preprint arXiv:2210.01438},
-  year={2022}
+@article{huang2023complementary,
+  title = {Complementary consistency semi-supervised learning for 3D left atrial image segmentation},
+  journal = {Computers in Biology and Medicine},
+  volume = {165},
+  pages = {107368},
+  year = {2023},
+  issn = {0010-4825},
+  doi = {https://doi.org/10.1016/j.compbiomed.2023.107368},
+  url = {https://www.sciencedirect.com/science/article/pii/S0010482523008338},
+  author = {Hejun Huang and Zuguo Chen and Chaoyang Chen and Ming Lu and Ying Zou}
 }
 ```
 If you use the dataset of 2018 Atrial Segmentation Challenge, please consider citing:
